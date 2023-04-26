@@ -107,7 +107,7 @@ anime({
 
 anime({
     targets: '#homebtns',
-    translateY: [50, 0],
+    translateY: [40, 0],
     opacity: [0, 1],
     delay: 1500,
     duration: 700,

@@ -60,6 +60,11 @@ html, body {
     width:75%;
 }
 
+#homenav {
+    position: relative;
+    bottom: 30px;
+}
+
 #homebtns {
     margin-left:80px;
     width:250px;
