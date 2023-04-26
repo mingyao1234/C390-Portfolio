@@ -1,0 +1,348 @@
+html, body {
+    background-image:linear-gradient(#FFEBBA,#998551);
+    margin:0;
+    height: 100%;
+}
+
+#quartercircle {
+    position: absolute;
+    width: 295px;
+    height: 295px;
+    border-radius: 0 0 100% 0;
+    background-color:#998551;
+    z-index: 1;
+}
+
+#typingcursor {
+    position: absolute;
+    top:195px;
+    left:255px;
+    border-color: black;
+    background-color: black;
+    width:4px;
+    height: 45px;
+}
+
+#logocontainer {
+    padding:10px;
+}
+
+#mainlogo {
+    position:relative;
+    width:20%;
+    z-index: 2;
+}
+
+#hometext {
+    font-family:Verdana;
+    color:#425899;
+    position:absolute;
+    left:250px;
+    top:150px;
+}
+
+#hometext h1 {
+    font-weight: bold;
+}
+
+#hometext h3 {
+    font-weight: bold;
+}
+
+#hometext p {
+    font-family:Consolas;
+    font-size: 22px;
+}
+
+#homeimage img {
+    position:relative;
+    left:760px;
+    top:-50px;
+    width:75%;
+}
+
+#homebtns {
+    margin-left:80px;
+    width:250px;
+    height:70px;
+    border-width:2px;
+    border-radius:50px;
+    padding:0px;
+    font-weight: bold;
+    color:#425899;
+    font-size: 35px;
+    font-family:Consolas;
+    border-color:#998551;
+    background-image:linear-gradient(#FFEBB8,#E6CE91);
+    transition: border-color, color, border-width 0.2s;
+}
+
+#homebtns:hover {
+    color: #3266FF;
+    border-color:#425899;
+    border-width:5px;
+}
+
+nav {
+    position: relative;
+    background-image:linear-gradient(#91A7E6,#bacaff);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#navlogo {
+    width:12%;
+}
+
+#navbtns {
+    margin-left:50px;
+    width:200px;
+    height:60px;
+    border-width:2px;
+    border-radius:50px;
+    padding:0px;
+    font-weight: bold;
+    color:#425899;
+    font-size: 30px;
+    font-family:Consolas;
+    border-color:#998551;
+    background-image:linear-gradient(#FFEBB8,#E6CE91);
+    transition: border-color, color, border-width 0.2s;
+}
+
+#navbtns:hover {
+    color: #3266FF;
+    border-color:#425899;
+    border-width:5px;
+}
+
+#aboutimage img {
+    margin-top:100px;
+    margin-left:200px;
+    width:50%;
+}
+
+#abouttext {
+    margin-top:100px;
+    font-size:26px;
+    font-family:Consolas;
+    color:#425899;
+}
+
+#aboutbtns {
+    margin-top:30px;
+    margin-left:70px;
+    width:400px;
+    height:80px;
+    border-width:2px;
+    border-radius:50px;
+    padding:0px;
+    font-weight: bold;
+    color:#425899;
+    font-size: 40px;
+    font-family:Consolas;
+    border-color:#998551;
+    background-image:linear-gradient(#FFEBB8,#E6CE91);
+    transition: border-color, color, border-width 0.2s;
+}
+
+#aboutbtns:hover {
+    color: #3266FF;
+    border-color:#425899;
+    border-width:5px;
+}
+
+#aboutbuttons {
+    padding:9px;
+}
+
+#portimage, #portimage2 {
+    margin-top: 130px;
+}
+
+#portimage img{
+    margin-left:30px;
+    width:90%;
+    height:78%;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+#portimage img:hover {
+    opacity: 1;
+}
+
+#portimage2 img {
+    margin-left:30px;
+    width:95%;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+#portimage2 img:hover {
+    opacity: 1;
+}
+
+#porttext h1 {
+    margin-top:-20px;
+    margin-left:50px;
+    font-family:Consolas;
+    font-weight:bold;
+    font-size:45px;
+    color:#425899;
+}
+
+#contacthead {
+    position: relative;
+    top:100px;
+    text-align: center;
+    font-size: 70px;
+    font-family:Consolas;
+    font-weight: bold;
+    color: #425899;
+}
+
+#contactrow img {
+    width: 5%;
+}
+
+#contactrow {
+    position: relative;
+    top:100px;
+}
+
+#contactrow h2 {
+    padding: 10px;
+    text-align: center;
+}
+
+#emailbtn {
+    position: relative;
+    left:360px;
+    width:400px;
+    height:80px;
+    border-width:3px;
+    border-radius:50px;
+    padding:0px;
+    font-weight: bold;
+    color:white;
+    font-size: 30px;
+    font-family:Consolas;
+    border-color:#3266FF;
+    background-color: #425899;
+    transition: border-color, background-color 0.3s ease;
+}
+
+#emailbtn:hover {
+    border-color: #bacaff;
+    background-color: #3266FF;
+}
+
+#skillsetrow {
+    position: relative;
+    top:90px;
+    font-family:Consolas;
+    color: #425899;
+}
+
+#skillsetrow h2 {
+    font-weight:bold;
+}
+
+#skillsetrow p {
+    font-size: 20px;
+}
+
+#pylogo {
+    width:10%;
+}
+
+#xdlogo {
+    width:10%;
+}
+
+#htmllogo {
+    width:12%;
+}
+
+#jslogo {
+    width:10%;
+}
+
+#certs img {
+    width:80%;
+    margin:5px;
+}
+
+#achrow {
+    position: relative;
+    top:90px;
+    font-family:Consolas;
+    color: #425899;
+}
+
+#achrow h2 {
+    font-weight:bold;
+}
+
+#achrow p {
+    font-size: 23px;
+}
+
+#achs img {
+    position: relative;
+    left:200px;
+    width:45%;
+    margin:5px;
+}
+
+#backbtn {
+    position: relative;
+    left:540px;
+    top:100px;
+    width:200px;
+    height:60px;
+    border-width:3px;
+    border-radius:50px;
+    padding:0px;
+    font-weight: bold;
+    color:#425899;
+    font-size: 35px;
+    font-family:Consolas;
+    border-color:#998551;
+    background-image:linear-gradient(#FFEBB8,#E6CE91);
+    transition: border-color, color, border-width 0.3s ease;
+}
+
+#backbtn:hover {
+    color: #3266FF;
+    border-color:#425899;
+    border-width: 5px;
+}
+
+footer {
+    position: relative;
+    top:10px;
+    margin-top:13px;
+}
+
+#currentbtn {
+    margin-left:50px;
+    width:200px;
+    height:60px;
+    border-width:5px;
+    border-radius:50px;
+    padding:0px;
+    font-weight: bold;
+    color:#425899;
+    font-size: 30px;
+    font-family:Consolas;
+    border-color:#3266FF;
+    background-image:linear-gradient(#FFEBB8,#E6CE91);
+    transition: border-color, color 0.3s ease;
+}
+
+#currentbtn:hover {
+    color: #3266FF;
+    border-color:#425899;
+}

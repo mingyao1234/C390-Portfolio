@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 354.53 172.32">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{font-family:'Consolas';}
+	.st2{font-size:13px;}
+	.st3{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st4{fill:#00AAEC;}
+	.st5{fill:url(#SVGID_1_);}
+</style>
+<rect x="192.57" y="16.41" class="st0" width="161.96" height="146.43"/>
+<text transform="matrix(1 0 0 1 192.5683 25.3804)"><tspan x="0" y="0" class="st1 st2">Print(”Hello World!”); </tspan><tspan x="0" y="16" class="st1 st2">int amount = 100;</tspan><tspan x="0" y="32" class="st1 st2">String sentence = </tspan><tspan x="0" y="48" class="st1 st2">“Keep pushing forward, </tspan><tspan x="0" y="64" class="st1 st2">never give up!” </tspan><tspan x="0" y="80" class="st1 st2">10010100111101</tspan><tspan x="0" y="96" class="st1 st2">boolean isTrue = true; </tspan><tspan x="0" y="112" class="st1 st2">10100111010 </tspan><tspan x="0" y="128" class="st1 st2">String sentence2=</tspan></text>
+<g>
+	<polyline class="st3" points="132.75,5.23 180.07,5.23 187.21,10.59 187.21,161.48 180.07,166.84 137.21,166.84 	"/>
+	<polyline class="st3" points="187.68,161.48 193.93,166.84 242.14,166.84 	"/>
+	<polyline class="st3" points="187.68,10.59 193.93,5.23 242.14,5.23 	"/>
+</g>
+<polygon class="st4" points="351.41,11.93 351.41,162.83 288.91,162.83 288.91,94.07 336.23,14.61 298.73,14.61 271.95,56.57 
+	237.59,14.61 201.41,14.61 253.2,93.18 253.2,162.83 192.48,162.83 192.48,11.93 "/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="22.5782" y1="20.4259" x2="151.5137" y2="155.8459">
+	<stop  offset="0" style="stop-color:#EBE83D"/>
+	<stop  offset="0.3498" style="stop-color:#C7A881"/>
+	<stop  offset="0.6642" style="stop-color:#AF7995"/>
+	<stop  offset="0.8879" style="stop-color:#A15B9B"/>
+	<stop  offset="1" style="stop-color:#9C4E9E"/>
+</linearGradient>
+<polygon class="st5" points="126.5,161.48 167.57,161.48 167.57,13.27 116.68,13.27 85.43,78.45 51.5,13.27 5.07,13.27 5.07,161.48 
+	46.14,161.48 46.14,59.7 72.04,109.7 103.29,109.7 126.5,58.8 "/>
+</svg>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <img id ="navlogo" src="images/PDLogo.svg" alt="portfolio logo">
+        <div class="nav-right">
+            <a href="index.html"><button id="navbtns" type="button">Home</button></a>
+            <a href="aboutMe.html"><button id="navbtns" type="button">About Me</button></a>
+            <a href="portfolio.html"><button id="currentbtn" type="button">Portfolio</button></a>
+            <a href="contact.html"><button id="navbtns" type="button">Contact</button></a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div id="portimage" class="col-6">
+                <a href="design.html">
+                    <img src="images/illustrationimage.png" alt="illustration">
+                </a>
+            </div>
+            <div id="portimage2" class="col-6">
+                <a href="webdev.html">
+                    <img src="images/webdevimage.png" alt="webdevelopment">
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div id="porttext" class="col-6">
+                <h1>Design/Illustration</h1>
+            </div>
+            <div id="porttext" class="col-6">
+                <h1>Web/App Development</h1>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
