@@ -23,13 +23,21 @@
     <div id="designcontainer" class="container">
         <img id="design1" src="images/illustrationimage.png" alt="illustration">
         <h1 class="title">Singapo Exhibition Poster</h1>
-        <button id="showmore1" onClick="toggleDetails1">More Details</button>
-        <div id="details1">
+        <div id="details1" style="display:none">
             <p>An exhibition poster used to promote an exhibition held by the Singapore Chinese Culture
                 Centre.
             </p>
             <p>Created using: Abode Illustrator, Adobe Photoshop</p>
         </div>
+        <button id="showmore1" onClick="toggleDetails1()">More Details</button><br>
+        <img id="design2" src="images/designimage2.png" alt="illustration">
+        <h1 class="title">Castle on Ice Photoshop</h1>
+        <div id="details2" style="display:none">
+            <p>A photoshop of a medieval castle on a plane of ice, used for an assignment
+            </p>
+            <p>Created using: Adobe Photoshop</p>
+        </div>
+        <button id="showmore2" onClick="toggleDetails2()">More Details</button><br>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>

@@ -1,9 +1,57 @@
 function toggleDetails1() {
     var x = document.getElementById("details1");
+    var btn = document.getElementById("showmore1");
     if (x.style.display == "none") {
+        anime({
+            targets: '#details1',
+            opacity: [0, 1],
+            translateY: [-20, 0],
+            duration: 400,
+            easing: 'easeInOutExpo'
+        });
         x.style.display = "block";
+        btn.innerHTML = "Show less";
     } else {
         x.style.display = "none";
+        btn.innerHTML = "More Details";
+    }
+}
+
+function toggleDetails2() {
+    var x = document.getElementById("details2");
+    var btn = document.getElementById("showmore2");
+    if (x.style.display == "none") {
+        anime({
+            targets: '#details2',
+            opacity: [0, 1],
+            translateY: [-20, 0],
+            duration: 400,
+            easing: 'easeInOutExpo'
+        });
+        x.style.display = "block";
+        btn.innerHTML = "Show less";
+    } else {
+        x.style.display = "none";
+        btn.innerHTML = "More Details";
+    }
+}
+
+function toggleDesc1() {
+    var x = document.getElementById("desc1");
+    var btn = document.getElementById("showdesc1");
+    if (x.style.display == "none") {
+        anime({
+            targets: '#desc1',
+            opacity: [0, 1],
+            translateY: [-20, 0],
+            duration: 400,
+            easing: 'easeInOutExpo'
+        });
+        x.style.display = "block";
+        btn.innerHTML = "Show less";
+    } else {
+        x.style.display = "none";
+        btn.innerHTML = "More Details";
     }
 }
 

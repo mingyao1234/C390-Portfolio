@@ -1,7 +1,6 @@
 html, body {
     background-image:linear-gradient(#FFEBBA,#998551);
-    margin:0;
-    height: 100%;
+    min-height: 100vh;
 }
 
 #quartercircle {
@@ -175,6 +174,7 @@ nav {
 #portimage2 img {
     margin-left:30px;
     width:95%;
+    height:78%;
     opacity: 0.5;
     transition: opacity 0.3s ease;
 }
@@ -299,7 +299,7 @@ nav {
 #backbtn {
     position: relative;
     left:540px;
-    top:100px;
+    top:80px;
     width:200px;
     height:60px;
     border-width:3px;
@@ -320,13 +320,24 @@ nav {
     border-width: 5px;
 }
 
-#designcontainer {
+#designcontainer, #webdevcontainer {
     text-align: center;
 }
 
-#design1 {
-    margin-top: 100px;
+#designcontainer img {
     width:40%;
+}
+
+#webdevcontainer img {
+    width:50%;
+}
+
+#design1, #webdev1 {
+    margin-top: 100px;
+}
+
+#design2, #webdev2 {
+    margin-top: 50px;
 }
 
 .title {
@@ -337,7 +348,7 @@ nav {
     font-weight:bold;
 }
 
-#designcontainer button{
+#designcontainer button, #webdevcontainer button{
     width:280px;
     height:60px;
     border-width:5px;
@@ -352,13 +363,15 @@ nav {
     transition: color, background-color 0.3s;
 }
 
-#designcontainer button:hover {
+#designcontainer button:hover, #webdevcontainer button:hover {
     color: black;
     background-color:#3266FF;
 }
 
-#showmore1 {
-    
+#designcontainer p, #webdevcontainer p {
+    font-family:Consolas;
+    color: #425899;
+    font-size: 20px;
 }
 
 #currentbtn {
