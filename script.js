@@ -1,3 +1,12 @@
+function toggleDetails1() {
+    var x = document.getElementById("details1");
+    if (x.style.display == "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
 anime({
     targets: '#quartercircle',
     translateY: [-300, 0],

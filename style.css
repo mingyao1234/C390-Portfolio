@@ -85,7 +85,7 @@ html, body {
 
 nav {
     position: relative;
-    background-image:linear-gradient(#91A7E6,#bacaff);
+    background-image:linear-gradient(#bacaff,#425899);
     display: flex;
     justify-content: space-evenly;
 }
@@ -130,7 +130,7 @@ nav {
 }
 
 #aboutbtns {
-    margin-top:30px;
+    margin-top:10px;
     margin-left:70px;
     width:400px;
     height:80px;
@@ -318,6 +318,47 @@ nav {
     color: #3266FF;
     border-color:#425899;
     border-width: 5px;
+}
+
+#designcontainer {
+    text-align: center;
+}
+
+#design1 {
+    margin-top: 100px;
+    width:40%;
+}
+
+.title {
+    margin:10px;
+    text-align: center;
+    color:#425899;
+    font-family:Consolas;
+    font-weight:bold;
+}
+
+#designcontainer button{
+    width:280px;
+    height:60px;
+    border-width:5px;
+    border-radius:50px;
+    padding:0px;
+    font-weight: bold;
+    color:white;
+    font-size: 28px;
+    font-family:Consolas;
+    border-color:#3266FF;
+    background-color: #425899;
+    transition: color, background-color 0.3s;
+}
+
+#designcontainer button:hover {
+    color: black;
+    background-color:#3266FF;
+}
+
+#showmore1 {
+    
 }
 
 #currentbtn {
