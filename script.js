@@ -252,7 +252,7 @@ anime({
     targets: '#abouttext',
     translateX: [70, 0],
     opacity: [0, 1],
-    delay: 200,
+    delay: 100,
     duration: 800,
     easing: 'easeInOutExpo'
 });
@@ -261,7 +261,7 @@ anime({
     targets: '#aboutimage',
     translateX: [-200, 0],
     opacity: [0, 1],
-    delay: 200,
+    delay: 100,
     duration: 800,
     easing: 'easeInOutExpo'
 });
