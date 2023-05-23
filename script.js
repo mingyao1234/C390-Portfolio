@@ -36,6 +36,62 @@ function toggleDetails2() {
     }
 }
 
+function toggleDetails3() {
+    var x = document.getElementById("details3");
+    var btn = document.getElementById("showmore3");
+    if (x.style.display == "none") {
+        anime({
+            targets: '#details3',
+            opacity: [0, 1],
+            translateY: [-20, 0],
+            duration: 400,
+            easing: 'easeInOutExpo'
+        });
+        x.style.display = "block";
+        btn.innerHTML = "Show less";
+    } else {
+        x.style.display = "none";
+        btn.innerHTML = "More Details";
+    }
+}
+
+function toggleDetails4() {
+    var x = document.getElementById("details4");
+    var btn = document.getElementById("showmore4");
+    if (x.style.display == "none") {
+        anime({
+            targets: '#details4',
+            opacity: [0, 1],
+            translateY: [-20, 0],
+            duration: 400,
+            easing: 'easeInOutExpo'
+        });
+        x.style.display = "block";
+        btn.innerHTML = "Show less";
+    } else {
+        x.style.display = "none";
+        btn.innerHTML = "More Details";
+    }
+}
+
+function toggleDetails5() {
+    var x = document.getElementById("details5");
+    var btn = document.getElementById("showmore5");
+    if (x.style.display == "none") {
+        anime({
+            targets: '#details5',
+            opacity: [0, 1],
+            translateY: [-20, 0],
+            duration: 400,
+            easing: 'easeInOutExpo'
+        });
+        x.style.display = "block";
+        btn.innerHTML = "Show less";
+    } else {
+        x.style.display = "none";
+        btn.innerHTML = "More Details";
+    }
+}
 function toggleDesc1() {
     var x = document.getElementById("desc1");
     var btn = document.getElementById("showdesc1");
