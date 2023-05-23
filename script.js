@@ -265,3 +265,21 @@ anime({
     duration: 800,
     easing: 'easeInOutExpo'
 });
+
+anime({
+    targets: '.skills',
+    translateY: [-40, 0],
+    opacity: [0, 1],
+    delay: anime.stagger(200, {start:200}),
+    duration: 500,
+    easing: 'easeInOutExpo'
+});
+
+anime({
+    targets: '.achievements',
+    translateY: [-40, 0],
+    opacity: [0, 1],
+    delay: anime.stagger(200, {start:200}),
+    duration: 500,
+    easing: 'easeInOutExpo'
+});
