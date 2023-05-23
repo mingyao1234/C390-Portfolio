@@ -283,3 +283,39 @@ anime({
     duration: 500,
     easing: 'easeInOutExpo'
 });
+
+anime ({
+    targets: '.socinfo',
+    translateX: [70,0],
+    opacity: [0, 1],
+    delay: 100,
+    duration: 500,
+    easing: 'easeInOutExpo'
+});
+
+anime ({
+    targets: '.socinfo2',
+    translateX: [-70,0],
+    opacity: [0, 1],
+    delay: 300,
+    duration: 500,
+    easing: 'easeInOutExpo'
+});
+
+anime ({
+    targets: '.socinfo3',
+    translateX: [70,0],
+    opacity: [0, 1],
+    delay: 500,
+    duration: 500,
+    easing: 'easeInOutExpo'
+});
+
+anime ({
+    targets: '#emailbutton',
+    translateY: [70,0],
+    opacity: [0, 1],
+    delay: 800,
+    duration: 400,
+    easing: 'easeInOutExpo'
+});
