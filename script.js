@@ -92,6 +92,9 @@ function toggleDetails5() {
         btn.innerHTML = "More Details";
     }
 }
+
+
+
 function toggleDesc1() {
     var x = document.getElementById("desc1");
     var btn = document.getElementById("showdesc1");
@@ -111,6 +114,81 @@ function toggleDesc1() {
     }
 }
 
+function toggleDesc2() {
+    var x = document.getElementById("desc2");
+    var btn = document.getElementById("showdesc2");
+    if (x.style.display == "none") {
+        anime({
+            targets: '#desc2',
+            opacity: [0, 1],
+            translateY: [-20, 0],
+            duration: 400,
+            easing: 'easeInOutExpo'
+        });
+        x.style.display = "block";
+        btn.innerHTML = "Show less";
+    } else {
+        x.style.display = "none";
+        btn.innerHTML = "More Details";
+    }
+}
+
+function toggleDesc3() {
+    var x = document.getElementById("desc3");
+    var btn = document.getElementById("showdesc3");
+    if (x.style.display == "none") {
+        anime({
+            targets: '#desc3',
+            opacity: [0, 1],
+            translateY: [-20, 0],
+            duration: 400,
+            easing: 'easeInOutExpo'
+        });
+        x.style.display = "block";
+        btn.innerHTML = "Show less";
+    } else {
+        x.style.display = "none";
+        btn.innerHTML = "More Details";
+    }
+}
+
+function toggleDesc4() {
+    var x = document.getElementById("desc4");
+    var btn = document.getElementById("showdesc4");
+    if (x.style.display == "none") {
+        anime({
+            targets: '#desc4',
+            opacity: [0, 1],
+            translateY: [-20, 0],
+            duration: 400,
+            easing: 'easeInOutExpo'
+        });
+        x.style.display = "block";
+        btn.innerHTML = "Show less";
+    } else {
+        x.style.display = "none";
+        btn.innerHTML = "More Details";
+    }
+}
+
+function toggleDesc5() {
+    var x = document.getElementById("desc5");
+    var btn = document.getElementById("showdesc5");
+    if (x.style.display == "none") {
+        anime({
+            targets: '#desc5',
+            opacity: [0, 1],
+            translateY: [-20, 0],
+            duration: 400,
+            easing: 'easeInOutExpo'
+        });
+        x.style.display = "block";
+        btn.innerHTML = "Show less";
+    } else {
+        x.style.display = "none";
+        btn.innerHTML = "More Details";
+    }
+}
 anime({
     targets: '#quartercircle',
     translateY: [-300, 0],
